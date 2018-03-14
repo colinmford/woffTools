@@ -13,8 +13,8 @@ import struct
 from fontTools.misc import sstruct
 from cStringIO import StringIO
 from xml.etree import ElementTree
-from fontTools.ttLib import TTFont, debugmsg, sortedTagList
-from fontTools.ttLib.sfnt import getSearchRange, calcChecksum, SFNTDirectoryEntry, \
+from fontTools.ttLib import TTFont, debugmsg, getSearchRange, sortedTagList
+from fontTools.ttLib.sfnt import calcChecksum, SFNTDirectoryEntry, \
     sfntDirectoryFormat, sfntDirectorySize, sfntDirectoryEntryFormat, sfntDirectoryEntrySize
 
 
